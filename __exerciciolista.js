@@ -26,3 +26,36 @@ for(let i=1; i<=8; i++; i=i+1)
 
 //7//
 for(let i=1; i<=15; i=i-1){console.log(i);}
+
+
+
+//forfach:
+let numeros ={1,2,3,4};
+console.log("for");
+for(let i=0; i<numeros.length;++){
+    console.log(numeros(i));
+}
+
+
+console.log("foreach anonima")
+numeros.foreach(function(n)){
+    if(n %2 ===0){
+        console.log(n)}};
+
+
+        console.log("foreach arrow");
+        numeros.forech(n=> console.log(n));
+
+
+
+
+
+
+
+        //MOSTRE O VALOR NO TERMINAL:
+        //DADOS DO ARRAY; LET FRUTAS{ MAÇA, BANANA, UVAS, ABACATE}
+
+        //forfach
+        let frutas =[1,2,3,4]
+        console.log(forech anonima)
+        console.log i=banana
